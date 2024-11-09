@@ -1,6 +1,6 @@
 resource "azurerm_network_security_group" "airbusns" {
   name                = "aeroplane1"
-  location            = "myvar1"
+  location            = var.myvar1
   resource_group_name = azurerm_resource_group.airbus.name
 
   security_rule {
