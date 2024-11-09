@@ -7,5 +7,5 @@ provider "azurerm" {
 # Define the resource group
 resource "azurerm_resource_group" "airbus" {
   name     = "airbus"
-  location = ""
+  location = "UKSouth"
 }
