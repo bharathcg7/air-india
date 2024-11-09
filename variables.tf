@@ -1,3 +1,3 @@
 variable "myvar1"{
-    default = "UKSouth"
+    default = "UKWest"
 }
